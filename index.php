@@ -1,7 +1,7 @@
 <?php 
 include('components/header.html');
 include('includes/bootstrap_include.php');
-
+include('includes/SweetAlert2_include.php');
 
 ?>
 <!DOCTYPE html>
@@ -141,6 +141,8 @@ include('includes/bootstrap_include.php');
             <label class="form-label">Nome</label>
             <input type="text" name="nome" class="form-control bg-dark text-white border-secondary" required>
           </div>
+
+          <input type="text" name="website" style="display:none">
 
           <div class="mb-3">
             <label class="form-label">Email</label>
